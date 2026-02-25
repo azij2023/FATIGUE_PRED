@@ -1,0 +1,17 @@
+# Ignore data files (keep only small samples if needed)
+data/*.csv
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+.venv/
+*.log
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore model binaries if too large
+models/*.pkl

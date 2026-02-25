@@ -1,0 +1,2 @@
+Model,Threshold,Accuracy,Recall (Fatigue),Precision (Fatigue),F1 (Fatigue),ROC-AUC
+Blended (LR + RF + LGBM),0.45,0.74375,0.6908127208480566,0.6246006389776357,0.6560402684563759,0.8076067418034187
