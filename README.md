@@ -23,8 +23,12 @@ src/                # Source code for preprocessing, modeling, and plotting note
 ---
 
 ## 📊 Visualizations
-- Pie chart of fatigue risk buckets (0–25%, 25–50%, 50–75%, 75–100%).  
-- ROC and PR curves for model comparison.
+### Fatigue Risk Distribution (Pie Chart)
+![Pie Chart](reports/fatigue_probability_distribution.png)
 
----
+### ROC Curve
+![ROC Curve](reports/roc_curve.png)
+
+### Precision-Recall Curve
+![PR Curve](reports/pr_curve.png)
 
