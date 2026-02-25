@@ -27,7 +27,7 @@ src/                # Source code for preprocessing, modeling, and plotting note
 ![Pie Chart](reports/fatigue_probability_distribution.png)
 
 ### ROC Curve
-![ROC Curve](reports/roc_curve.png)
+![ROC Curve](reports/combined_PR_curves.png)
 
 ### Precision-Recall Curve
 ![PR Curve](reports/pr_curve.png)
