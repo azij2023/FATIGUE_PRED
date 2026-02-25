@@ -39,11 +39,12 @@ The workflow is modular, with separate scripts for data exploration, preprocessi
 ### Precision-Recall Curve
 ![PR Curve](reports/pr_curve.png) |
 
-![Pie Chart](reports/fatigue_probability_distribution.png)
 
 ---
 
 ## 📂 Final Prediction
+
+![Pie Chart](reports/fatigue_probability_distribution.png)
 The final prediction file is:
 - **`Qubits_Predictions.csv`** → Contains 2,000 rows of user IDs with predicted fatigue probabilities.
 
