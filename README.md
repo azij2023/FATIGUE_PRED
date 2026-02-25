@@ -25,31 +25,21 @@ The workflow is modular, with separate scripts for data exploration, preprocessi
 ---
 
 ## 📊 Data Exploration
-| Metric | Visualization |
-|--------|---------------|
-| Subscription Tier | ![Subscription Tier](reports/bar_subscription_tier.png) |
-| Completion Rate | ![Completion Rate](reports/box_avg_completion_rate.png) |
-| Daily Minutes (7d) | ![Daily Minutes](reports/box_avg_daily_minutes_last_7d.png) |
-| Binge Sessions | ![Binge Sessions](reports/box_binge_sessions_last_30d.png) |
-| Fatigue Label Distribution | ![Fatigue Label](reports/hist_fatigue_label.png) |
-| Recommendation Click Rate | ![Click Rate](reports/box_recommendation_click_rate.png) |
 
 👉 Open the dashboard notebook in `notebooks/05_blending_model.py` or explore the saved figures in the `reports/` folder.
 
 ---
 
 ## 🤖 Model Visualization
-We provide clear visualizations of:
-- Feature importance (LightGBM, Random Forest).
-- SHAP values for explainability.
-- ROC and PR curves comparing models.
-- Confusion matrices for classification performance.
+### Fatigue Risk Distribution (Pie Chart)
 
-Figures are saved in the `reports/` folder:
-- `fatigue_probability_distribution.png`
-- `fatigue_probability_histogram.png`
-- `roc_curve.png`
-- `pr_curve.png`
+### ROC Curve
+![ROC Curve](reports/combined_PR_curves.png)
+
+### Precision-Recall Curve
+![PR Curve](reports/pr_curve.png) |
+
+![Pie Chart](reports/fatigue_probability_distribution.png)
 
 ---
 
@@ -59,15 +49,8 @@ The final prediction file is:
 
 This file is competition-ready and can be directly submitted to the leaderboard.
 
----
 
-## 📊 Visualizations
-### Fatigue Risk Distribution (Pie Chart)
-![Pie Chart](reports/fatigue_probability_distribution.png)
 
-### ROC Curve
-![ROC Curve](reports/combined_PR_curves.png)
 
-### Precision-Recall Curve
-![PR Curve](reports/pr_curve.png)
+
 
